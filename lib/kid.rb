@@ -2,6 +2,8 @@ require_relative './dance_module.rb'
 require_relative './class_methods_module.rb'
 
 class Kid #defining the Classes
+ extend MetaDancing
+ 
  # To lend our two classes all of the methods of 
  # the Dance module, we use the include keyword:
 
@@ -13,5 +15,5 @@ class Kid #defining the Classes
     @name = name
   end
   
-  extend MetaDancing
+  
 end
