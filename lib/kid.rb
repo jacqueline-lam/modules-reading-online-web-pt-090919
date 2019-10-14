@@ -12,5 +12,5 @@ class Kid #defining the Classes
   def initialize(name)
     @name = name
   end
-
+  extend MetaDancing
 end
