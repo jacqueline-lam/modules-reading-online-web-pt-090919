@@ -1,5 +1,5 @@
-require_relative './class_methods_module.rb'
-require_relative './dance_module.rb'
+# require_relative './class_methods_module.rb'
+# require_relative './dance_module.rb'
 
 # #step 2: defining classe before including our module in our classes
 
